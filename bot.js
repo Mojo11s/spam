@@ -27,12 +27,6 @@ if (message.content === prefix+'spam') {
       }
 });
 
-
-setInterval(function() {
-channel.send(` and are you abn 4rmota ? يابن كوم شكاير الاف ءح الدولية كسم اي حد يعترض طريقي`);
-}, 30)
-})  
-
 client.on("message", function(message) {
   let prefix = "-";
   let args = message.content
