@@ -15,7 +15,10 @@ if (message.content === prefix+'spam'){
    let ecount = 0
 for(let x = 0; x < 90000; x++){
    channel.send(` and are you abn 4rmota ? يابن كوم شكاير الاف ءح الدولية كسم اي حد يعترض طريقي + ${x}`);
-  }
+          .then(m => {
+            count++;
+          })  
+}
 }
 
 client.on("message", function(message) {
