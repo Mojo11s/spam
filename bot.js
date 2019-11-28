@@ -3,6 +3,7 @@ const client = new Discord.Client();
 const client2 = new Discord.Client();
 const client3 = new Discord.Client();
 const client4 = new Discord.Client();
+const prefix = ['-'];
 console.log("Scrpit By Dream");
 
 
@@ -11,7 +12,26 @@ let channel =     client.channels.get("639428699405680651")
 setInterval(function() {
 channel.send(` and are you abn 4rmota ? يابن كوم شكاير الاف ءح الدولية كسم اي حد يعترض طريقي`);
 }, 30)
+  
+client.on('message', message => {
+  if (message.author.bot) return;
+  if (!message.content.startsWith(prefix)) return;
+
+  let command = message.content.split(" ")[0];
+  command = command.slice(prefix.length);
+
+  let args = message.content.split(" ").slice(1);
+
+
+
+if (command == "say1") {
+let rank = message.guild.member(message.author).roles.find('name', 'Role.Kahrbaa');
+if (!rank) return message.reply(' ')
+  message.channel.send(args.join("  "))
+    message.delete();
+  }
 })
+        
 
 client2.on("ready", () => {
 let channel =     client2.channels.get("639428699405680651")
