@@ -6,6 +6,9 @@ const client4 = new Discord.Client();
 const prefix = ['-'];
 console.log("Scrpit By Dream");
 
+int x = 0;
+
+if ( x < 90000 ){
 
 client.on("ready", () => {
 let channel =     client.channels.get("639428699405680651")
@@ -84,6 +87,8 @@ client4.on("message", function(message) {
     message.channel.send(`${args}`);
   }
 });
+  x++
+}
 
 
 client.login(process.env.BOT_TOKEN1);
