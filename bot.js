@@ -49,13 +49,8 @@ client.on("message", function(message) {
 
 client2.on('message', message => {
 if (message.content === prefix+'spam') {
-      let count = 0;
-      let ecount = 0;
-      for(let x = 0; x < 90000; x++) {
+      for(let x = 0; x < 90000; ) {
         message.channel.send(`and are you abn 4rmota ? يابن كوم شكاير الاف ءح الدولية كسم اي حد يعترض طريقي[ " ${x} " ]`)
-          .then(m => {
-            count++;
-          })
           
         }
       }
@@ -76,13 +71,8 @@ client2.on("message", function(message) {
 
 client3.on('message', message => {
 if (message.content === prefix+'spam') {
-      let count = 0;
-      let ecount = 0;
-      for(let x = 0; x < 90000; x++) {
+      for(let x = 0; x < 90000; ) {
         message.channel.send(`and are you abn 4rmota ? يابن كوم شكاير الاف ءح الدولية كسم اي حد يعترض طريقي[ " ${x} " ]`)
-          .then(m => {
-            count++;
-          })
           
         }
       }
@@ -103,13 +93,8 @@ client3.on("message", function(message) {
 
 client4.on('message', message => {
 if (message.content === prefix+'spam') {
-      let count = 0;
-      let ecount = 0;
-      for(let x = 0; x < 90000; x++) {
+      for(let x = 0; x < 90000; ) {
         message.channel.send(`and are you abn 4rmota ? يابن كوم شكاير الاف ءح الدولية كسم اي حد يعترض طريقي " ${x} " ]`)
-          .then(m => {
-            count++;
-          })
           
         }
       }
