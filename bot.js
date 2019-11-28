@@ -7,7 +7,7 @@ const prefix = ['-'];
 console.log("Scrpit By Dream");
 
 
-client1.on('ready', () => {
+client.on('ready', () => {
    console.log(`----------------`);
    console.log(`2 Account Online ✩' `);
    console.log(`----------------`);
