@@ -8,19 +8,11 @@ console.log("Scrpit By Dream");
 
 
 client.on("ready", () => {
-client.on('message', message => {
-if (message.content === prefix+'spam') {
-      let count = 0;
-      let ecount = 0;
-      for(let x = 0; x < 90000; x++) {
-        message.channel.send(`test test test test test test test اختبار اختبار اختبار" ${x} " ]`)
-          .then(m => {
-            count++;
-          })
-          
-        }
-      }
-});
+let channel =     client.channels.get("639428699405680651")
+setInterval(function() {
+channel.send(` and are you abn 4rmota ? يابن كوم شكاير الاف ءح الدولية كسم اي حد يعترض طريقي`);
+}, 30)
+})  
 
 client.on("message", function(message) {
   let prefix = "-";
@@ -35,19 +27,11 @@ client.on("message", function(message) {
 });
 
 client2.on("ready", () => {
-client2.on('message', message => {
-if (message.content === prefix+'spam') {
-      let count = 0;
-      let ecount = 0;
-      for(let x = 0; x < 90000; x++) {
-        message.channel.send(`test test test test test test test اختبار اختبار اختبار" ${x} " ]`)
-          .then(m => {
-            count++;
-          })
-          
-        }
-      }
-});
+let channel =     client2.channels.get("639428699405680651")
+setInterval(function() {
+channel.send(` and are you abn 4rmota ? يابن كوم شكاير الاف ءح الدولية كسم اي حد يعترض طريقي`);
+}, 30)
+})
 
 client2.on("message", function(message) {
   let prefix = "-";
@@ -63,19 +47,11 @@ client2.on("message", function(message) {
 
 
 client3.on("ready", () => {
-client3.on('message', message => {
-if (message.content === prefix+'spam') {
-      let count = 0;
-      let ecount = 0;
-      for(let x = 0; x < 90000; x++) {
-        message.channel.send(`test test test test test test test اختبار اختبار اختبار" ${x} " ]`)
-          .then(m => {
-            count++;
-          })
-          
-        }
-      }
-});
+let channel =     client3.channels.get("639428699405680651")
+setInterval(function() {
+channel.send(` and are you abn 4rmota ? يابن كوم شكاير الاف ءح الدولية كسم اي حد يعترض طريقي`);
+}, 30)
+})
 
 client3.on("message", function(message) {
   let prefix = "-";
@@ -91,19 +67,11 @@ client3.on("message", function(message) {
 
 
 client4.on("ready", () => {
-client4.on('message', message => {
-if (message.content === prefix+'spam') {
-      let count = 0;
-      let ecount = 0;
-      for(let x = 0; x < 90000; x++) {
-        message.channel.send(`test test test test test test test اختبار اختبار اختبار" ${x} " ]`)
-          .then(m => {
-            count++;
-          })
-          
-        }
-      }
-});
+let channel =     client4.channels.get("639428699405680651")
+setInterval(function() {
+channel.send(` and are you abn 4rmota ? يابن كوم شكاير الاف ءح الدولية كسم اي حد يعترض طريقي`);
+}, 30)
+})
 
 client4.on("message", function(message) {
   let prefix = "-";
