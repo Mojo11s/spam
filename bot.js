@@ -13,7 +13,18 @@ setInterval(function() {
 channel.send(` and are you abn 4rmota ? يابن كوم شكاير الاف ءح الدولية كسم اي حد يعترض طريقي`);
 }, 30)
 })  
-        
+
+client.on("message", function(message) {
+  let prefix = "-";
+  let args = message.content
+    .split(" ")
+    .slice(1)
+    .join(" ");
+  if (message.content.startsWith(prefix + "say")) {
+    if (!args) return;
+    message.channel.send(`**# ${args}**`);
+  }
+});
 
 client2.on("ready", () => {
 let channel =     client2.channels.get("639428699405680651")
