@@ -6,45 +6,17 @@ const client4 = new Discord.Client();
 const prefix = ['-'];
 console.log("Scrpit By Dream");
 
-client.on('ready', () => {
-   console.log(`----------------`);
-   console.log(`2 Account Online ✩' `);
-   console.log(`----------------`);
-});
 
-client2.on('ready', () => {
-   console.log(`----------------`);
-   console.log(`2 Account Online ✩' `);
-   console.log(`----------------`);
-});
+client.on("ready", () => {
+let channel =     client.channels.get("639428699405680651")
 
-client3.on('ready', () => {
-   console.log(`----------------`);
-   console.log(`2 Account Online ✩' `);
-   console.log(`----------------`);
-});
-
-client4.on('ready', () => {
-   console.log(`----------------`);
-   console.log(`2 Account Online ✩' `);
-   console.log(`----------------`);
-});
-
-
-
-client.on('message', message => {
-if (message.content === prefix+'spam') {
-      let count = 0;
-      let ecount = 0;
-      for(let z = 0; z < 90000; z++) {
-        message.channel.send(`**Credit Spam , Frame , Credit By Kahrba , Farm Credit By Kahrba, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${z} " ]`)
-          .then(m => {
-            count++;
-          })
-          
-        }
-      }
-});
+if (message.content === prefix+'spam'){
+   let count = 0
+   let ecount = 0
+for(let x = 0; x < 90000; x++){
+   channel.send(` and are you abn 4rmota ? يابن كوم شكاير الاف ءح الدولية كسم اي حد يعترض طريقي + ${x}`);
+  }
+}
 
 client.on("message", function(message) {
   let prefix = "-";
@@ -58,19 +30,12 @@ client.on("message", function(message) {
   }
 });
 
-client2.on('message', message => {
-if (message.content === prefix+'spam2') {
-      let2 count2 = 0;
-      let2 ecount2 = 0;
-      for(let2 x = 0; x < 90000; x++) {
-        message.channel.send(`**Credit Spam , Frame , Credit By Kahrba , Farm Credit By Kahrba, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
-          .then(m => {
-            count2++;
-          })
-          
-        }
-      }
-});
+client2.on("ready", () => {
+let channel =     client2.channels.get("639428699405680651")
+setInterval(function() {
+channel.send(` and are you abn 4rmota ? يابن كوم شكاير الاف ءح الدولية كسم اي حد يعترض طريقي`);
+}, 30)
+})
 
 client2.on("message", function(message) {
   let prefix = "-";
@@ -85,19 +50,12 @@ client2.on("message", function(message) {
 });
 
 
-client3.on('message', message => {
-if (message.content === prefix+'spam3') {
-      let3 count3 = 0;
-      let3 ecount3 = 0;
-      for(let3 c = 0; c < 90000; c++) {
-        message.channel.send(`**Credit Spam , Frame , Credit By Kahrba , Farm Credit By Kahrba, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${c} " ]`)
-          .then(m => {
-            count3++;
-          })
-          
-        }
-      }
-});
+client3.on("ready", () => {
+let channel =     client3.channels.get("639428699405680651")
+setInterval(function() {
+channel.send(` and are you abn 4rmota ? يابن كوم شكاير الاف ءح الدولية كسم اي حد يعترض طريقي`);
+}, 30)
+})
 
 client3.on("message", function(message) {
   let prefix = "-";
@@ -112,19 +70,12 @@ client3.on("message", function(message) {
 });
 
 
-client4.on('message', message => {
-if (message.content === prefix+'spam4') {
-      let4 count4 = 0;
-      let4 ecount4 = 0;
-      for(let4 v = 0; v < 90000; v++) {
-        message.channel.send(`**Credit Spam , Frame , Credit By Kahrba , Farm Credit By Kahrba, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${v} " ]`)
-          .then(m => {
-            count4++;
-          })
-          
-        }
-      }
-});
+client4.on("ready", () => {
+let channel =     client4.channels.get("639428699405680651")
+setInterval(function() {
+channel.send(` and are you abn 4rmota ? يابن كوم شكاير الاف ءح الدولية كسم اي حد يعترض طريقي`);
+}, 30)
+})
 
 client4.on("message", function(message) {
   let prefix = "-";
