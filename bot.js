@@ -3,6 +3,8 @@ const client = new Discord.Client();
 const client2 = new Discord.Client();
 const client3 = new Discord.Client();
 const client4 = new Discord.Client();
+const client5 = new Discord.Client();
+const client6 = new Discord.Client();
 const prefix = ['-'];
 console.log("Scrpit By Dream");
 
@@ -114,5 +116,5 @@ client.login(process.env.BOT_TOKEN1);
 client2.login(process.env.BOT_TOKEN2);
 client3.login(process.env.BOT_TOKEN3);
 client4.login(process.env.BOT_TOKEN4);
-client5.login(process.env.BOT_TOKEN3);
-client6.login(process.env.BOT_TOKEN3);
+client5.login(process.env.BOT_TOKEN5);
+client6.login(process.env.BOT_TOKEN6);
