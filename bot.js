@@ -85,8 +85,34 @@ client4.on("message", function(message) {
   }
 });
 
+client5.on("message", function(message) {
+  let prefix = "-";
+  let args = message.content
+    .split(" ")
+    .slice(1)
+    .join(" ");
+  if (message.content.startsWith(prefix + "say5")) {
+    if (!args) return;
+    message.channel.send(`${args}`);
+  }
+});
+
+client6.on("message", function(message) {
+  let prefix = "-";
+  let args = message.content
+    .split(" ")
+    .slice(1)
+    .join(" ");
+  if (message.content.startsWith(prefix + "say6")) {
+    if (!args) return;
+    message.channel.send(`${args}`);
+  }
+});
+
 
 client.login(process.env.BOT_TOKEN1);
 client2.login(process.env.BOT_TOKEN2);
 client3.login(process.env.BOT_TOKEN3);
 client4.login(process.env.BOT_TOKEN4);
+client5.login(process.env.BOT_TOKEN3);
+client6.login(process.env.BOT_TOKEN3);
